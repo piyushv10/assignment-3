@@ -14,17 +14,16 @@ const CompanyMetrics = () => {
   return (
     <div className="company-metrics-container">
       
-      <Card data={{ num: '406411.29' , desc: 'Total Revenue' }}/>
+      <Card  num= {'406411.29'}  desc= {'Total Revenue'} />
+      <Card  num= {'620'}  desc= {'Total Jobs Avg'} />
+      <Card  num= {'655'}  desc= {'Tickets Created'} />
+      <Card  num= {'735'}  desc= {'Tickets Scheculed'} />
+      <Card  num= {'110448.8'}  desc= {'Outstanding amount'} />
+      <Card  num= {'105'}  desc= {'Memberships Sold'} />
+      <Card  num= {'436'}  desc= {'Jobs Completed'} />
+      <Card  num= {'65'}  desc= {'Total Canceled'} />
+      
 
-      <Card title="Metric 2" content="Placeholder content for Metric 2" />
-      <Card title="Metric 3" content="Placeholder content for Metric 3" />
-      <Card title="Metric 4" content="Placeholder content for Metric 4" />
-
-      {/* Row 2 */}
-      <Card title="Metric 5" content="Placeholder content for Metric 5" />
-      <Card title="Metric 6" content="Placeholder content for Metric 6" />
-      <Card title="Metric 7" content="Placeholder content for Metric 7" />
-      <Card title="Metric 8" content="Placeholder content for Metric 8" />
     </div>
   );
 };

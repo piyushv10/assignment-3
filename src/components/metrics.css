@@ -4,6 +4,7 @@
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
     padding: 20px;
+    background-color: hsl(0deg 0% 100%);
   }
   
   .card {

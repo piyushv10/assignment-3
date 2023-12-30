@@ -1,14 +1,17 @@
 import React from 'react'
 
-const card = (num,desc) => {
+const card = (props) => {
   return (
     <div>
+        
+       
         <div>
+            
             <p>
-                ${num}
+                {props.num}
             </p>
             <p>
-                ${desc}
+                {props.desc}
             </p>
         </div>
     </div>
