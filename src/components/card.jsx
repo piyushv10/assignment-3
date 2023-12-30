@@ -1,12 +1,10 @@
 import React from 'react'
 
 const card = (props) => {
+    
   return (
-    <div>
-        
-       
+    <div>    
         <div>
-            
             <p>
                 {props.num}
             </p>
